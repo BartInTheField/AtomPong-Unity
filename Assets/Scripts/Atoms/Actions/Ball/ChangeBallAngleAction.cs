@@ -18,7 +18,7 @@ public class ChangeBallAngleAction : GameObjectPairAction
         if (other.gameObject.name == "Player 1")
         {
             // Calculate hit Factor
-            float y = hitFactor(self.transform.position,
+            float y = HitFactor(self.transform.position,
                                 other.transform.position,
                                 other.GetComponent<Collider2D>().bounds.size.y);
 
@@ -33,7 +33,7 @@ public class ChangeBallAngleAction : GameObjectPairAction
         if (other.gameObject.name == "Player 2")
         {
             // Calculate hit Factor
-            float y = hitFactor(self.transform.position,
+            float y = HitFactor(self.transform.position,
                                 other.transform.position,
                                 other.GetComponent<Collider2D>().bounds.size.y);
 
@@ -46,7 +46,7 @@ public class ChangeBallAngleAction : GameObjectPairAction
     }
 
 
-    float hitFactor(Vector2 ballPos, Vector2 racketPos,
+    float HitFactor(Vector2 ballPos, Vector2 racketPos,
             float racketHeight)
     {
         // ascii art:

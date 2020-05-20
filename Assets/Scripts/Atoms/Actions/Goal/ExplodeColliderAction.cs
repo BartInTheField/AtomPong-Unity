@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityAtoms;
 using UnityAtoms.BaseAtoms;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Unity Atoms/Goal/Actions/Explode")]
-public class ExplodeAction : Collider2DAction
+[CreateAssetMenu(menuName = "Unity Atoms/Generic/Actions/Explode Collider")]
+public class ExplodeColliderAction : Collider2DAction
 {
     [SerializeField] private GameObject explosionObject;
     

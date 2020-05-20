@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5d097ada44ed674a8979be1e076d723, type: 3}
-  m_Name: Explode
+  m_Script: {fileID: 11500000, guid: c8e061b87de0498408f59572eddb47d3, type: 3}
+  m_Name: ExplodeGameObjectPair
   m_EditorClassIdentifier: 
   _developerDescription: 
   explosionObject: {fileID: 6341664738219583263, guid: 1c3b501d6a3ffc946b21a98ca05aeece,
